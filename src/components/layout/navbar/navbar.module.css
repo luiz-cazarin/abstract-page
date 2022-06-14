@@ -1,0 +1,35 @@
+.header {
+    background-color: #181818;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    padding: 1.5rem;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    column-gap: 3rem;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.header ul a {
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header ul li a{
+    cursor: pointer;
+}
+
+.header ul li a:hover{
+    transition: .1s;
+    color: #BFD9D7;
+}

@@ -1,0 +1,5 @@
+.body {
+    background-color: #181818;
+    width: 100%;
+    height: calc(100vh - (114px + 53px));
+  }
